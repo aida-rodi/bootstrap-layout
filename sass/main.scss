@@ -2,6 +2,83 @@ $primary: #5266df;
 $secondary: #14213d;
 $danger: #f75959;
 
-/* @import '../node_modules/bootstrap/scss/_functions.scss'; */
-/* @import '../node_modules/bootstrap/scss/_variables.scss'; */
+.nav-link:hover {
+	cursor: pointer;
+	color: $danger !important;
+}
+
+.btn-danger:hover {
+	background-color: white !important;
+	color: $danger !important;
+}
+
+.btn-primary:hover {
+	background-color: white !important;
+	color: $primary !important;
+}
+
+.btn-light:hover {
+	background-color: white !important;
+	color: rgb(109, 108, 108) !important;
+}
+
+#simple-bookmarking-tab:hover {
+	border-bottom: 3px solid $danger;
+}
+
+#simple-bookmarking-tab {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid lightgrey;
+}
+
+#speedy-searching-tab:hover {
+	border-bottom: 3px solid $danger;
+}
+
+#speedy-searching-tab {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid lightgrey;
+}
+
+#easy-sharing-tab:hover {
+	border-bottom: 3px solid $danger;
+}
+
+#easy-sharing-tab {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid lightgrey;
+}
+
+.accordion-button:hover {
+	color: $danger !important;
+}
+
+#inlineFormInputGroupUsername {
+	width: 300px;
+}
+
+@media (max-width: 575.98px) {
+	#inlineFormInputGroupUsername {
+		width: 400px;
+		padding: 10px 20px;
+	}
+	#contactBtn {
+		width: 400px;
+		padding: 10px 0;
+		margin-top: 10px
+	}
+}
+
+#footerNavbar {
+	font-size: small;
+}
+
+@import '../node_modules/bootstrap/scss/_functions.scss';
+@import '../node_modules/bootstrap/scss/_variables.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
