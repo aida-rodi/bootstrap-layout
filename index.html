@@ -9,6 +9,7 @@
 </head>
 
 <body class="text-secondary">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-white fixed-top py-3">
       <div class="container" >
         <a class="navbar-brand" href="./">
@@ -21,15 +22,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center fw-semibold ms-lg-auto">
             <li class="nav-item me-lg-4">
-                <a class="nav-link text-secondary" href="#">FEATURES</a>
+                <a class="nav-link text-secondary" href="#features">FEATURES</a>
             </li>
             <li class="nav-item mx-lg-4">
-                <a class="nav-link text-secondary" href="#">PRICING</a>
+                <a class="nav-link text-secondary" href="#downloadExtension">PRICING</a>
             </li>
             <li class="nav-item mx-lg-4">
-                <a class="nav-link text-secondary" href="#">CONTACT</a>
+                <a class="nav-link text-secondary" href="#footer">CONTACT</a>
             </li>
-            <li class="nav-item ms-lg-4">
+            <li class="nav-item ms-lg-4 mt-2 mt-lg-0">
                 <button class="btn btn-danger fw-semibold text-light px-5 py-2 shadow" href="#">LOGIN</button>
             </li>
           </ul>
@@ -41,6 +42,7 @@
         <div class="row"></div>
     </div>
 
+    <!-- Hero section -->
     <div class="container"  id="heroSection">
         <div class="row align-items-center my-5">
             <div class="col-12 col-lg-7 order-lg-last">
@@ -48,51 +50,32 @@
             </div>
             <div class="col order-lg-first text-center text-lg-start">
                 <h1 class="fw-bold">A Simple Bookmark Manager</h1>
-                <p class="my-4 text-muted fw-semibold fs-5">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-                <button class="btn btn-primary text-light px-4 py-3 fw-bold shadow">Get it on Chrome</button>
-                <button class="btn btn-light text-secondary px-4 py-3 fw-bold shadow">Get it on Firefox</button>
+                <p class="my-4 text-muted mx-auto mx-lg-0" style="max-width: 420px;">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                <button class="btn btn-primary text-light px-4 py-3 fw-semibold shadow">Get it on Chrome</button>
+                <button class="btn btn-light text-secondary px-4 py-3 fw-semibold shadow">Get it on Firefox</button>
             </div>
         </div>
     </div>
 
-    <!-- TABS EXAMPLE -->
-        <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
-            </li>
-        </ul>
-
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">tab1</div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">tab2</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-        </div> -->
-    <!-- TABS EXAMPLE -->
-
+    <!-- Features -->
     <div class="container text-center my-5" id="features">
         <div class="container mb-3">
            <h2>Features</h2>
         </div>
         <div class="container" style="max-width: 485px;">
-            <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p> 
+            <p class="text-muted">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p> 
         </div>
 
         <nav class="navbar d-flex justify-content-center">
              <ul class="nav nav-tabs flex-column flex-lg-row text-center" id="featureTabs" role="tablist">
                 <li class="nav-item" id="tab-link" role="presentation">
-                    <button class="nav-link active text-muted" id="simple-bookmarking-tab" data-bs-toggle="tab" data-bs-target="#simple-bookmarking" type="button" role="tab" aria-controls="simple-bookmarking" aria-selected="true">Simple Bookmarking</button>
+                    <button class="nav-link active text-muted fw-semibold p-4" id="simple-bookmarking-tab" data-bs-toggle="tab" data-bs-target="#simple-bookmarking" type="button" role="tab" aria-controls="simple-bookmarking" aria-selected="true">Simple Bookmarking</button>
                 </li>
                 <li class="nav-item" id="tab-link" role="presentation">
-                    <button class="nav-link text-muted" id="speedy-searching-tab" data-bs-toggle="tab" data-bs-target="#speedy-searching" type="button" role="tab" aria-controls="speedy-searching" aria-selected="false">Speedy Searching</button>
+                    <button class="nav-link text-muted fw-semibold p-4" id="speedy-searching-tab" data-bs-toggle="tab" data-bs-target="#speedy-searching" type="button" role="tab" aria-controls="speedy-searching" aria-selected="false">Speedy Searching</button>
                 </li>
                 <li class="nav-item" id="tab-link" role="presentation">
-                    <button class="nav-link text-muted" id="easy-sharing-tab" data-bs-toggle="tab" data-bs-target="#easy-sharing" type="button" role="tab" aria-controls="easy-sharing" aria-selected="false">Easy Sharing</button>
+                    <button class="nav-link text-muted fw-semibold p-4" id="easy-sharing-tab" data-bs-toggle="tab" data-bs-target="#easy-sharing" type="button" role="tab" aria-controls="easy-sharing" aria-selected="false">Easy Sharing</button>
                 </li>
             </ul>
         </nav>
@@ -112,7 +95,7 @@
                             <p style="max-width: 400px;">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
                         </div>
                         <div class="container mt-2">
-                            <button class="btn btn-primary">More Info</button>
+                            <button class="btn btn-primary fw-semibold py-2 px-4">More Info</button>
                         </div>
                     </div>
                 </div>
@@ -132,7 +115,7 @@
                             <p style="max-width: 400px;">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
                         </div>
                         <div class="container mt-2">
-                            <button class="btn btn-primary">More Info</button>
+                            <button class="btn btn-primary fw-semibold py-2 px-4">More Info</button>
                         </div>
                     </div>
                 </div>
@@ -152,7 +135,7 @@
                             <p style="max-width: 400px;">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
                         </div>
                         <div class="container mt-2">
-                            <button class="btn btn-primary">More Info</button>
+                            <button class="btn btn-primary fw-semibold py-2 px-4">More Info</button>
                         </div>
                     </div>
                 </div>
@@ -166,7 +149,7 @@
             <h2>Download the extension</h2>
         </div>
         <div class="container mb-5" style="max-width: 485px;">
-            <p >We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+            <p class="text-muted">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
         </div>
         <div class="row mx-auto w-75">
             <div class="col-12 col-lg align-self-lg-start mb-lg-5">
@@ -184,7 +167,7 @@
                         <img src="./images/bg-dots.svg" alt="divider" width="95%">
                     </div>
                     <div class="container mt-3">
-                        <button class="btn btn-primary">Add & Install Extension</button>
+                        <button class="btn btn-primary fw-semibold py-2 px-4">Add & Install Extension</button>
                     </div>
                 </div>
             </div>
@@ -203,7 +186,7 @@
                         <img src="./images/bg-dots.svg" alt="divider" width="95%">
                     </div>
                     <div class="container mt-3">
-                        <button class="btn btn-primary">Add & Install Extension</button>
+                        <button class="btn btn-primary fw-semibold py-2 px-4">Add & Install Extension</button>
                     </div>
                 </div>
             </div>
@@ -222,7 +205,7 @@
                         <img src="./images/bg-dots.svg" alt="divider" width="95%">
                     </div>
                     <div class="container mt-3">
-                        <button class="btn btn-primary">Add & Install Extension</button>
+                        <button class="btn btn-primary fw-semibold py-2 px-4">Add & Install Extension</button>
                     </div>
                 </div>
             </div>
@@ -292,22 +275,22 @@
             </div>
         </div>
         <div class="container">
-            <button class="btn btn-primary">More Info</button>
+            <button class="btn btn-primary fw-semibold py-2 px-4">More Info</button>
         </div>
     </div>
 
     <!-- Footer -->
     <footer class="container-fluid bg-primary mb-0 mt-5 px-0 pt-5 text-light text-center" id="footer">
         <div class="container">
-            <h6>35.000+ ALREADY JOINED</h6>
-            <h2 class="my-5 mx-auto" style="max-width: 350px;">Stay up-to-date with what we're doing</h2>
+            <p class="joined mt-3">35.000+ ALREADY JOINED</p>
+            <h2 class="mt-4 mb-5 mx-auto" style="max-width: 380px;">Stay up-to-date with what we're doing</h2>
             <form class="row row-cols-lg-auto g-2 align-items-center d-flex justify-content-center mb-5">
                 <div class="col-12">
                     <label class="visually-hidden" for="inlineFormInputGroupUsername">email</label>
-                    <input type="text" class="form-control mx-auto" id="inlineFormInputGroupUsername" placeholder="Enter your email adress">
+                    <input type="text" class="form-control mx-auto py-2 px-3" id="inlineFormInputGroupUsername" placeholder="Enter your email adress">
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-danger fw-semibold text-light" id="contactBtn">Contact us</button>
+                    <button type="submit" class="btn btn-danger fw-semibold text-light py-2 px-4" id="contactBtn">Contact us</button>
                 </div>
             </form>
         </div>
@@ -316,26 +299,30 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container d-flex justify-content-center justify-content-lg-start pt-4 pb-3 py-lg-3" >
-                        <a class="navbar-brand" href="./">
+                        <a class="navbar-brand" href="#">
                             <img src="/images/logo-bookmark-white-text.svg"></img>
                         </a>
                     </div>
                     <div class="container d-flex justify-content-center">
                         <ul class="navbar-nav align-items-center">
                             <li class="nav-item me-lg-4">
-                                <a class="nav-link text-light" href="#">FEATURES</a>
+                                <a class="nav-link text-light" href="#features">FEATURES</a>
                             </li>
                             <li class="nav-item mx-lg-4">
-                                <a class="nav-link text-light" href="#">PRICING</a>
+                                <a class="nav-link text-light" href="#downloadExtension">PRICING</a>
                             </li>
                             <li class="nav-item mx-lg-4">
-                                <a class="nav-link text-light" href="#">CONTACT</a>
+                                <a class="nav-link text-light" href="#footer">CONTACT</a>
                             </li>
                         </ul>
                     </div>
                     <div class="container d-flex justify-content-center justify-content-lg-end align-items-center py-4 py-lg-3">
-                        <img src="/images/icon-facebook.svg" alt="logo facebook" class="me-4">
-                        <img src="/images/icon-twitter.svg" alt="logo twitter" class="ms-4">
+                        <a href="http://www.facebook.com" target="_blank" class="svg facebook-link">
+                            <img src="/images/icon-facebook.svg" alt="logo facebook" class="facebook-logo me-4">
+                        </a>
+                        <a href="http://www.twitter.com" target="_blank" class="twitter-link">
+                            <img src="/images/icon-twitter.svg" alt="logo twitter" class="twitter-logo ms-4">
+                        </a>
                     </div>
                 </nav>
             </div>

@@ -22,7 +22,7 @@ $danger: #f75959;
 	color: rgb(109, 108, 108) !important;
 }
 
-#simple-bookmarking-tab:hover {
+#simple-bookmarking-tab:focus {
 	border-bottom: 3px solid $danger;
 }
 
@@ -33,7 +33,7 @@ $danger: #f75959;
 	border-bottom: 1px solid lightgrey;
 }
 
-#speedy-searching-tab:hover {
+#speedy-searching-tab:focus {
 	border-bottom: 3px solid $danger;
 }
 
@@ -44,7 +44,7 @@ $danger: #f75959;
 	border-bottom: 1px solid lightgrey;
 }
 
-#easy-sharing-tab:hover {
+#easy-sharing-tab:focus {
 	border-bottom: 3px solid $danger;
 }
 
@@ -63,6 +63,16 @@ $danger: #f75959;
 	width: 300px;
 }
 
+.joined {
+	letter-spacing: 5px;
+	font-size: 12px;
+}
+
+#footerNavbar {
+	font-size: small;
+	letter-spacing: 2px;
+}
+
 @media (max-width: 575.98px) {
 	#inlineFormInputGroupUsername {
 		width: 400px;
@@ -75,9 +85,7 @@ $danger: #f75959;
 	}
 }
 
-#footerNavbar {
-	font-size: small;
-}
+
 
 @import '../node_modules/bootstrap/scss/_functions.scss';
 @import '../node_modules/bootstrap/scss/_variables.scss';
