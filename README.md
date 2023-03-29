@@ -18,17 +18,17 @@ main.scss --> ( luego lo convertimos en archivo css)
 
 ## En acabar el projecte
 1. Instalar PurgeCss (desde terminal)
-  npm i -g purgecss
+  - npm i -g purgecss
 
-<!--  ir a package.json encontrar "scripts": {} ES PARA OPTIMIZAR el codigo CSS, para que guarde solo lo que uso en mi codigo y asi tendria que crearse una carpeta nueva de REDUCIDO.CSS ... FALTA ESTA PARTE DE ACABARLA, VER VIDEO tiempo 1.17hora-->
-npm run build
+2. Ir a package.json encontrar "scripts": {} ES PARA OPTIMIZAR el codigo CSS, para que guarde solo lo que uso en mi codigo y asi tendria que crearse una carpeta nueva de REDUCIDO.CSS
+  - npm run build
 
-### CUANDO TERMINO MI PROYECTO, HAY QUE VOLVER A TERMINAL Y REINICIAR LOS CAMBIOS CON:
-  npm run build
+### Cuando termine el proyecto, volver a terminal y reiniciar cambios con:
+  - npm run build
 
-### Si quiero subir mi proyecto a una pagina de hosting (por ej: netlyfy.com) entonces debo crear en local una carpeta 'dist' y allí guardar:
+### Para subir mi proyecto a una pagina de hosting (por ej: netlyfy.com) debo crear en local una carpeta 'dist' y allí guardar:
   - html
   - reducido.css
   - images
 
-Desde esta pagina me dan un dominio y si lo quiero personalizar, tengo que dar a SETTING -> Options -> Edit Site name (escribo nombre de mi poyecto) -> Save
+(Desde esta pagina me dan un dominio y si lo quiero personalizar: Settings -> Options -> Edit Site name -> Save)
